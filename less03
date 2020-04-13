@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("Vvedite a");
+   scanf(&a);
+   printf("Vvedite b");
+   scanf(&b);
+   c=a+b;
+   printf("Cумма = %d\n",c)
+}
